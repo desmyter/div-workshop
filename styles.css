@@ -1,0 +1,75 @@
+/* This is the stylesheet for the div project. */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+}
+
+.menu {
+    display: flex;
+    flex-direction: column;
+    background-color: #888;
+    color: #fff;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding-inline-start: 0;
+}
+
+li {
+    list-style-type: none;
+    padding: 10px;
+}
+
+.superdiv {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.div-one, .div-two, .div-three {
+    display: flex;
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    margin: 10px;
+}
+
+.duperdiv {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    justify-content: stretch;
+    align-items: center;
+}
+
+.div-four, .div-five, .div-six {
+    display: flex;
+    justify-content: center;
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    margin: 10px;
+    width: 830px;
+}
